@@ -235,6 +235,15 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#installation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Installation
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#commands" class="md-nav__link">
     <span class="md-ellipsis">
       Commands
@@ -247,6 +256,33 @@
   <a href="#project-layout" class="md-nav__link">
     <span class="md-ellipsis">
       Project layout
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hosting-the-site" class="md-nav__link">
+    <span class="md-ellipsis">
+      Hosting the site
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hosting-the-site-with-github-pages" class="md-nav__link">
+    <span class="md-ellipsis">
+      Hosting the site with GitHub Pages
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#alternatives" class="md-nav__link">
+    <span class="md-ellipsis">
+      Alternatives
     </span>
   </a>
   
@@ -327,6 +363,15 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#installation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Installation
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#commands" class="md-nav__link">
     <span class="md-ellipsis">
       Commands
@@ -339,6 +384,33 @@
   <a href="#project-layout" class="md-nav__link">
     <span class="md-ellipsis">
       Project layout
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hosting-the-site" class="md-nav__link">
+    <span class="md-ellipsis">
+      Hosting the site
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hosting-the-site-with-github-pages" class="md-nav__link">
+    <span class="md-ellipsis">
+      Hosting the site with GitHub Pages
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#alternatives" class="md-nav__link">
+    <span class="md-ellipsis">
+      Alternatives
     </span>
   </a>
   
@@ -361,6 +433,11 @@
 
 <h1 id="welcome-to-mkdocs">Welcome to MkDocs</h1>
 <p>For full documentation visit <a href="https://www.mkdocs.org">mkdocs.org</a>.</p>
+<h2 id="installation">Installation</h2>
+<ul>
+<li><code>pip install mkdocs</code> - Install mkdocs. </li>
+<li><code>pip install mkdocs-material</code> - Install mkdocs-material for the fonts. </li>
+</ul>
 <h2 id="commands">Commands</h2>
 <ul>
 <li><code>mkdocs new [dir-name]</code> - Create a new project.</li>
@@ -374,6 +451,37 @@ docs/
     index.md  # The documentation homepage.
     ...       # Other markdown pages, images and other files.
 </code></pre>
+<h2 id="hosting-the-site">Hosting the site</h2>
+<p>To host the site there are different alternatives:</p>
+<ul>
+<li>Public Repo: <ul>
+<li>GitHub Pages (free)  </li>
+</ul>
+</li>
+<li>Private: <ul>
+<li>Another hosting provider (e.g., Netifly)</li>
+<li>GitHub Enterprise </li>
+</ul>
+</li>
+</ul>
+<h2 id="hosting-the-site-with-github-pages">Hosting the site with GitHub Pages</h2>
+<p>(Having the Repo initialized/cloned)
+Using the terminal create a new documentation project:
+<code>mkdocs new test_docu</code></p>
+<p>Mkdocs will create: </p>
+<pre><code>mkdocs.yml    # The configuration file.
+docs/
+    index.md  # The documentation homepage.
+</code></pre>
+<p>Deploy the site in GitHub Pages using the following command in the terminal:
+<code>mkdocs gh-deploy</code></p>
+<h2 id="alternatives">Alternatives</h2>
+<ul>
+<li>Public: <ul>
+<li>Readthedocs (free)</li>
+</ul>
+</li>
+</ul>
 
 
 
